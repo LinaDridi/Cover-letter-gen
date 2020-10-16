@@ -1,0 +1,19 @@
+{
+  "name": "cover-letter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "jsreport-assets": "^1.7.0",
+    "jsreport-chrome-pdf": "^1.9.0",
+    "jsreport-core": "^2.10.1",
+    "jsreport-handlebars": "^2.1.0",
+    "puppeteer": "^5.3.0"
+  }
+}

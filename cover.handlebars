@@ -1,0 +1,96 @@
+
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+        </style>        
+        <style>
+        {#asset Invoice styles.css @encoding=utf8}
+        {#asset font-awesome.css}
+                .fa {
+           font-family: 'FontAwesome2' !important; 
+        }
+
+        @font-face {
+          font-family: 'FontAwesome2';
+          src: url({#asset fontawesome-webfont.woff @encoding=dataURI});
+          format('woff');
+        }
+    </style>
+    </head>
+    <body>
+        <div class="invoice-box">
+            <table cellpadding="0" cellspacing="0">
+                <tr class="top">
+                    <td colspan="2">
+                        <table>
+                            <tr>
+                                <td >
+                                    <span class="title">
+                                    Lina Dridi 
+                                    </span><br>
+                                    <span class="subtitle">
+                                        Élève ingénieur en génie logiciel <br>à la recherche d'un stage de fin d'étude
+                                    </span>
+                                </td>
+                                <td class="ff">
+                                    <br> lina.dridi.97@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <br> (+216) 56 300 344 <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <br>/in/lina-dridi- <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="ff">
+                        Madame/Monsieur, <br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Actuellement étudiante en <b>3ème année cycle ingénieur Génie Logiciel à l'INSAT</b>
+                    –Institut National des Sciences Appliquées et de Technologie– en option <b>Data Science</b>, je vous soumets ma
+                    candidature pour un stage de fin d’étude débutant en Février.<br><br>
+
+                    {{!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Étant passionnée par le domaine de la data science et ayant déjà réalisé un projet pour "La classification des images hyperspectrales" en explorant toutes les phases d'un projet Deep Learning allant de
+                    l'acquisition des données jusqu'au test suite au développement, je suis intéressée par l’offre de
+                    stage "{{offreDeStage}}". --}}
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Étant passionnée par le domaine de développement web et ayant déjà réalisé un nombre de projet parmi lesquels je citerai <b>"Handyman" , "petPal" et "A3Voice",</b> je suis intéressée par l’offre de
+                    stage <b>"{{offreDeStage}}"</b>. Durant ces projets, j'ai participé à la conception de l'appli et au développement de ses deux parties front et back, la gestion de la base de données, la sécurisation des accès, les tests et le déploiement.
+                     
+                     
+                     {{!-- J'ai également travaillé, pendant mon projet de fin d'année, sur un modèle de classification des images hyperspectrales appelé "Spectral Spatial Residual Network" ou SSRN. --}}
+<br><br>
+                    {{!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Étant passionnée par le domaine de développement web et ayant déjà réalisé un nombre de projet parmi lesquels je citerai <b>"Handyman" , "petPal" et "A3Voice",</b> je suis à la recherche d'une offre de
+                    stage au sein de votre société. Durant ces projets, j'ai participé à la conception de l'appli et au développement de ses deux parties front et back, la gestion de la base de données, la sécurisation des accès, les tests et le déploiement.<br><br> --}}
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sérieuse, j'ai acquis un grand nombre de compétence grâce à ma formation et je serai
+                    ravie de les mettre en pratique auprès de vos professionnels lors de mon stage. Mes <b>précédents
+                    stages</b> chez <b>"Agena3000" et "BiatLabs"</b> m'ont permis, de même, de développer rigueur, organisation et sens de responsabilité.
+                    Chose qui m'a permis de réaliser ainsi des missions en parfaite autonomie.<br>
+
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Habile et autonome, <b>j'ai travaillé en temps partiel pendant une année</b> (2019) en tant que développeur au sein de la société de consulting <b>"CLS consulting" </b> sur des projets variés, chose qui m'a permis 
+                    d'entamer une vie professionnelle et d'engager un contact direct avec des <b>clients Allemands</b>.<br>
+                    
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sociable, j'ai acquis également des compétences en matière de communication durant
+                    mes activités extra professionnelles. Des compétences qui m'ont permis de développer mon
+                    aisance relationnelle et me permettront d'entretenir un excellent contact avec l'équipe au sein
+                    d'un projet.
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Travailler en tant que stagiaire au sein de <b>"{{nomEntreprise}}"</b>, "{{descriptionEntreprise}}", serait une véritable opportunité pour moi pour intégrer des équipes d'experts et de passionnés et faire face à de nouveaux challenges dans un environnement de collaboration, innovation et initiative.
+
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vivement motivée à l'idée de vous rejoindre, j'espère que ma candidature vous paraitra
+                    pertinente et que vous saurez y donner une suite favorable. Je me tiens à votre entière
+                    disposition pour tout renseignement complémentaire et pour convenir d'un éventuel entretien.<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dans l’attente de vous rencontrer, je vous prie de croire, Madame, Monsieur, à
+                    l'assurance de mes salutations respectueuses. <br>
+                        
+                    <b>Lina DRIDI</b>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
